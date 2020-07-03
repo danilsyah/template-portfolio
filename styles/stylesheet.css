@@ -428,3 +428,27 @@ textarea.input+.shadow-input {
   -o-transform: translateX(10px);
   transform: translateX(10px);
 }
+
+* .portfolio-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.container-portofolio {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.person {
+  float: left;
+  width: 25%;
+}
+
+.person-icon {
+  position: relative;
+}

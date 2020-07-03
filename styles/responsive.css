@@ -45,7 +45,7 @@
 
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .lesson {
+  .person {
     width: 50%;
     margin-bottom: 50px;
   }
@@ -63,7 +63,7 @@
 
 /* Untuk Smartphone */
 @media(max-width: 670px) {
-  .lesson {
+  .person {
     width: 100%;
   }
 
