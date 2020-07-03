@@ -105,6 +105,61 @@ body {
   background: linear-gradient(left, #0072ff, #00c6ff);
 }
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.headlogo {
+  font-family: "consolas";
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  margin-top: 13.5px;
+  cursor: pointer;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
 .top-wrapper {
   height: 100vh;
   background-image:
