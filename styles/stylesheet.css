@@ -427,3 +427,84 @@ textarea.input+.shadow-input {
   -o-transform: translateX(10px);
   transform: translateX(10px);
 }
+/* portofolio wrapper start */
+.portfolio-wrapper {
+  width: 100%;
+  min-height: 100%;
+  padding: 10px;
+  background: #009bff;
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+  background: -o-linear-gradient(left, #0072ff, #00c6ff);
+  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+  background: linear-gradient(left, #0072ff, #00c6ff);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+  
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.person {
+  float: left;
+  width: 20%;
+}
+
+.person:hover {
+  transform: scale(1.1);
+}
+
+.person strong{
+  margin-bottom: 10px;
+  position: relative;
+}
+.person-icon {
+  position: relative;
+}
+
+.person-icon p {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: black;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.container-portofolio {
+  width: 1163px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 100px 90px 100px;
+}
+
+/* portofolio wrapper end*/
